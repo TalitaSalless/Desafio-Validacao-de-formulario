@@ -7,10 +7,7 @@ botaoEnviar.addEventListener('click', function() {
    campos.forEach(function (input, index) {
       if (input.value == "") {
          input.classList.add("campo-vazio");
-         spans[index].style.display = 'block'
-         
       } else if (input.value !== "") {
-         spans[index].style.display = 'none'
          input.classList.remove("campo-vazio");
          input.classList.add("campo-preenchido");
       }
