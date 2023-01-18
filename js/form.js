@@ -4,8 +4,8 @@ const botaoEnviar = document.querySelector("#btnEnviar");
 const emailRegex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i;
 
 botaoEnviar.addEventListener('click', function() {
-   event.preventDefault()
-   campos.forEach(function (input, index) {
+   preventDefault()
+   campos.forEach(function (input) {
       if (input.value == "") {
          input.classList.add("campo-vazio");
       } else if (input.value !== "") {
