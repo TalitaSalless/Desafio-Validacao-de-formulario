@@ -87,7 +87,7 @@ button:hover {
   opacity: 0.9;
   cursor: pointer;
 }
-.span-erro {
+span {
   font-weight: 400;
   color: #F52E2E;
   font-size: 10px;
