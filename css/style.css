@@ -87,7 +87,7 @@ button:hover {
   opacity: 0.9;
   cursor: pointer;
 }
-span.span-erro {
+.span-erro {
   font-weight: 400;
   color: #F52E2E;
   font-size: 10px;
@@ -100,5 +100,4 @@ span.span-erro {
 }
 .campo-vazio {
   border: 2px solid #F52E2E;
-  display: block;
 }
